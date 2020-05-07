@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_10_dp"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/margin_10_dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10_dp">
+
+        <TextView
+            android:id="@+id/patient_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="@color/primary_text_color"
+            android:textSize="@dimen/font_size_20_sp"
+            android:textStyle="bold"
+            tools:text="Patient name" />
+
+        <TextView
+            android:id="@+id/patient_dob_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_3_dp"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/font_size_14_sp"
+            tools:text="01-01-2000" />
+
+        <TextView
+            android:id="@+id/patient_gender_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_3_dp"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/font_size_14_sp"
+            tools:text="Male" />
+
+        <TextView
+            android:id="@+id/appointment_date_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_3_dp"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/font_size_14_sp"
+            tools:text="01-01-2020" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

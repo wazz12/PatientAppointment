@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_15_dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_3_dp"
+        android:text="@string/name"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/font_size_12_sp" />
+
+    <EditText
+        android:id="@+id/patient_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textColor="@color/primary_text_color"
+        android:textColorHint="@color/hint_text_color"
+        android:textSize="@dimen/font_size_16_sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_3_dp"
+        android:layout_marginTop="@dimen/margin_20_dp"
+        android:text="@string/date_of_birth"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/font_size_12_sp" />
+
+    <EditText
+        android:id="@+id/patient_dob_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/select_date"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textColor="@color/primary_text_color"
+        android:textColorHint="@color/hint_text_color"
+        android:textSize="@dimen/font_size_16_sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_3_dp"
+        android:layout_marginTop="@dimen/margin_20_dp"
+        android:text="@string/gender"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/font_size_12_sp" />
+
+    <Spinner
+        android:id="@+id/patient_gender_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:tooltipText="@string/gender"
+        tools:listitem="@android:layout/simple_selectable_list_item"
+        tools:targetApi="o" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_3_dp"
+        android:layout_marginTop="@dimen/margin_20_dp"
+        android:text="@string/appointment_date"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/font_size_12_sp" />
+
+    <EditText
+        android:id="@+id/patient_appointment_date_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/select_date"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textColor="@color/primary_text_color"
+        android:textColorHint="@color/hint_text_color"
+        android:textSize="@dimen/font_size_16_sp" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_20_dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/add"
+        android:textColor="@color/white_color" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Patient Appointment</string>
+    <string name="appointment_list">Appointment List</string>
+    <string name="add">Add</string>
+    <string name="empty_list">Patient Appointment list is empty</string>
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="appointment_date">Appointment date</string>
+    <string name="enter_name">Enter name</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="alert">Alert</string>
+    <string name="success">Success</string>
+    <string name="appointment_add_success">Patient Appointment added successfully</string>
+    <string name="default_date_format">dd-MM-yyyy</string>
+</resources>

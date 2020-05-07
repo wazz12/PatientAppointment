@@ -1,0 +1,16 @@
+<resources>
+
+    <!--Font Sizes-->
+    <dimen name="font_size_20_sp">20sp</dimen>
+    <dimen name="font_size_16_sp">16sp</dimen>
+    <dimen name="font_size_14_sp">14sp</dimen>
+    <dimen name="font_size_12_sp">12sp</dimen>
+
+    <!-- Margins -->
+    <dimen name="margin_3_dp">3dp</dimen>
+    <dimen name="margin_5_dp">5dp</dimen>
+    <dimen name="margin_10_dp">10dp</dimen>
+    <dimen name="margin_15_dp">15dp</dimen>
+    <dimen name="margin_20_dp">20dp</dimen>
+
+</resources>
